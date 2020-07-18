@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <div className="container pv3-ns bt-ns b--grey white-90 w-70 mw7-ns center mt3 mb5 mv4-ns ">
       <div className="poster-container mv2 fl-ns w-30-ns">
-        <img className="poster" alt="poster of movie" src={posterPath} />
+        <img className="poster" alt={Poster} src={posterPath} />
       </div>
       <div className="content pl4-ns pr3-ns fl-ns w-70-ns f5 measure">
         <h1 className="ma0 white-90 f2 ttu"> {data.original_title} </h1>
