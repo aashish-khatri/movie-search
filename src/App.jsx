@@ -35,9 +35,7 @@ class App extends Component {
             movieId: i.id,
             name: i.title,
           }));
-          // console.log(movieList)
           this.setState({ suggestions: movieList });
-          // console.log(this.state.suggestions)
         })
         .catch((error) => console.log(error));
     }
@@ -85,11 +83,10 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state);
     const numbers = 1;
-    const { suggestions} = this.state;
+    const { suggestions } = this.state;
     return this.state.profileExist === false ? (
-      <RollBoxLoading className="" speed = {numbers} />
+      <RollBoxLoading className="" speed={numbers} />
     ) : (
       <div className="">
         <SearchBar
