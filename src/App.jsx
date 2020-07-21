@@ -43,6 +43,10 @@ class App extends Component {
   componentDidUpdate(prevProps, prevState) {
     if (prevState.id !== this.state.id) {
       this.fetchAPI();
+      this.setState({ profileExist: false });
+      setTimeout(() => {
+        this.setState({ profileExist: true });
+      }, 1500);
     }
   }
   fetchAPI = () => {
@@ -69,17 +73,13 @@ class App extends Component {
         })
       );
     const arrayToString = (array) => array.map((item) => item.name).join(", ");
-    this.setState({ profileExist: false });
-    setTimeout(() => {
-      this.setState({ profileExist: true });
-    }, 1000);
   };
   componentDidMount() {
     this.fetchAPI();
     this.setState({ profileExist: false });
     setTimeout(() => {
       this.setState({ profileExist: true });
-    }, 1000);
+    }, 2000);
   }
 
   render() {
