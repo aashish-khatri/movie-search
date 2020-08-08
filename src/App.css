@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-body{
+
+body {
   line-height: 1.6;
   background-color: rgba(0, 0, 0, .95);
 }
-h1{
+
+h1 {
   line-height: 1.2;
 }
-#searchbox{
+
+#searchbox {
   border-bottom: 1px solid rgba(255, 255, 255, .7);
   font-family: 'Roboto', sans-serif;
 }
@@ -15,13 +18,14 @@ h1{
   background-color: #C4EF0F;
   color: black;
 } */
-.typeahead{
+.typeahead {
   transition-timing-function: ease-in;
   transition: 0.9s;
 }
+
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+  outline: none;
 }

@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie Search
 
-## Available Scripts
+Movie Search is a responsive [React](http://facebook.github.io/react/index.html) app that utilises manually built Typeahead, loading data via [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api).
 
-In the project directory, you can run:
+<img src="public/demo.gif" width = 700px/>
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Movie Search App](https://aashish-khatri.github.io/movie-search/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Tools
 
-### `npm test`
+Key tools used in this React project are:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+|                        Tool                         | Description                                                                                          |
+| :-------------------------------------------------: | ---------------------------------------------------------------------------------------------------- |
+| [React](http://facebook.github.io/react/index.html) | A JavaScript library for building user interfaces                                                    |
+|          [Tachyons](https://tachyons.io/)           | Create fast loading, highly readable, and 100% responsive interfaces with as little css as possible. |
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[node.js](http://nodejs.org/download/) is required to get `npm`.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+If you would like to download the code and try it for yourself:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Clone the repo: `https://github.com/aashish-khatri/movie-search.git`
+2. `cd movie-search`
+3. Install packages: `npm install`
+4. Build project and launch: `npm start`
+5. Open your browser at: `http://localhost:3000/movie-search`
+6. Deploy it on Github: `npm run deploy`
