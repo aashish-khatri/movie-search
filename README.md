@@ -28,4 +28,3 @@ If you would like to download the code and try it for yourself:
 3. Install packages: `npm install`
 4. Build project and launch: `npm start`
 5. Open your browser at: `http://localhost:3000/movie-search`
-6. Deploy it on Github: `npm run deploy`
